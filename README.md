@@ -11,9 +11,17 @@ I use an ODROID N2+. See the Arch Linux ARM page for the ODROID N2+ here:
 
 ## Installation Instructions
 
-Use the following command to clone and run the script on a fresh Arch Linux ARM
-installation:
+1. Login as root and run the following commands:
 
 ```bash
-git clone https://github.com/MacMannes/odroid-arch-supplement.git && cd odroid-arch-supplement && ./run.sh
+pacman -S git sudo
+```
+
+1. Login as your main user and run the following command to clone and run the
+   script :
+
+```bash
+git clone https://github.com/MacMannes/odroid-arch-supplement.git && \
+cd odroid-arch-supplement && \
+./run.sh
 ```
