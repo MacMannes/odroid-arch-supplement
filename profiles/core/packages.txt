@@ -3,4 +3,9 @@ zsh
 zsh-antidote
 geekbench
 nvim
+zoxide
+eza
+bat
+gh
+fastfetch
 
