@@ -4,6 +4,9 @@ zsh-antidote
 nvim
 zoxide
 eza
+fzf
+fd
+ripgrep
 bat
 github-cli
 fastfetch
