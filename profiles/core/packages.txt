@@ -5,7 +5,7 @@ nvim
 zoxide
 eza
 bat
-gh
+github-cli
 fastfetch
 stow
 lazygit
@@ -14,4 +14,5 @@ hyprland
 swaync
 qt5-wayland
 qt6-wayland
+alacritty
 
