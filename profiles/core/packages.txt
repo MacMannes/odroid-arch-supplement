@@ -19,4 +19,6 @@ qt5-wayland
 qt6-wayland
 alacritty
 ttf-jetbrains-mono-nerd
+nodejs
+foot
 
