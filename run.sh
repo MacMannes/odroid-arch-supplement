@@ -47,8 +47,8 @@ fi
 ########################################
 export DRY_RUN
 
-run_script "./install.gum.sh" "Installing gum"
-run_script "./install.yay.sh" "Installing yay"
+run_script "./install-gum.sh" "Installing gum"
+run_script "./install-yay.sh" "Installing yay"
 run_script "./install-terminus-font" "Installing Terminus Font"
 
 # gum installed, safe to use UI
