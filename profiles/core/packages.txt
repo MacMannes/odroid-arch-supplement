@@ -8,4 +8,6 @@ bat
 gh
 fastfetch
 stow
+lazygit
+hyprland
 
