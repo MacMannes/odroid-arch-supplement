@@ -9,5 +9,6 @@ gh
 fastfetch
 stow
 lazygit
+kitty
 hyprland
 
