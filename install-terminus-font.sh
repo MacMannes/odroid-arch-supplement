@@ -21,4 +21,6 @@ else
   run sudo echo "FONT=$FONT_NAME" >> "$VCONSOLE_CONF"
 fi
 
+run sudo systemctl restart systemd-vconsole-setup
+
 done_step
