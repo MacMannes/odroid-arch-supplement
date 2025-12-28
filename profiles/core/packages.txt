@@ -7,4 +7,5 @@ eza
 bat
 gh
 fastfetch
+stow
 
