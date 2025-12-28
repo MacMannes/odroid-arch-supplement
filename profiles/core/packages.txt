@@ -11,4 +11,7 @@ stow
 lazygit
 kitty
 hyprland
+swaync
+qt5-wayland
+qt6-wayland
 
