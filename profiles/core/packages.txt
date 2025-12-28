@@ -1,7 +1,6 @@
 starship
 zsh
 zsh-antidote
-geekbench
 nvim
 zoxide
 eza
