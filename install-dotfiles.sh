@@ -26,6 +26,7 @@ run stow zsh
 run stow nvim
 run stow starship
 run stow starship
+run stow --adopt hyprland-arch
 run stow waybar-arch
 
 run cd $ORIGINAL_DIR
