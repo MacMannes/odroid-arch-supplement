@@ -22,8 +22,10 @@ clone_or_update() {
 clone_or_update
 run cd ~/$REPO_NAME || exit 1
 
-run stow --adopt zsh
-run stow --adopt nvim
-run stow --adopt starship
+run stow zsh
+run stow nvim
+run stow starship
+run stow starship
+run stow waybar-arch
 
 run cd $ORIGINAL_DIR
