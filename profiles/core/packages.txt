@@ -21,6 +21,12 @@ alacritty
 ttf-jetbrains-mono-nerd
 nodejs
 foot
-wofi
 nautilus
-
+walker
+elephant
+elephant-desktopapplications
+elephant-calc
+elephant-files
+elephant-menus
+elephant-runner
+elephant-unicode
