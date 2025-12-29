@@ -31,3 +31,6 @@ elephant-menus
 elephant-runner
 elephant-unicode
 waybar
+nwg-look
+catppuccin-gtk-theme-mocha
+
