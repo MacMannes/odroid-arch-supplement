@@ -21,4 +21,6 @@ alacritty
 ttf-jetbrains-mono-nerd
 nodejs
 foot
+wofi
+nautilus
 
