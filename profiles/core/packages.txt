@@ -8,6 +8,7 @@ fzf
 fd
 ripgrep
 bat
+zip
 github-cli
 fastfetch
 stow
