@@ -11,7 +11,9 @@ if [ -z \"\$WAYLAND_DISPLAY\" ] && [ \"\$XDG_VTNR\" -eq 1 ]; then
     mkdir -p \"\$XDG_RUNTIME_DIR\"
     chmod 700 \"\$XDG_RUNTIME_DIR\"
 
-    exec uwsm start hyprland
+    if uwsm check may-start; then
+       exec uwsm start hyprland.desktop
+    fi
 fi
 "
 
@@ -22,7 +24,6 @@ else
     echo "Configuring .zprofile to auto-start Hyprland..."
     # Backup current .zprofile
     cp "$ZPROFILE" "${ZPROFILE}.bak.$(date +%s)"
-    echo "$SNIPPET" >> "$ZPROFILE"
+    echo "$SNIPPET" >>"$ZPROFILE"
     echo "Done! Backup saved as ${ZPROFILE}.bak.$(date +%s)"
 fi
-

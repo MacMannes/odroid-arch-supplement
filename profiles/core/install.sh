@@ -7,3 +7,4 @@ run ./set-shell.sh
 run ./enable-elephant-service.sh
 run sudo ./set-locale.sh
 run ./setup-hyprland-autostart.sh
+run ./setup-autologin-lock.sh
