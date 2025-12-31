@@ -9,6 +9,7 @@ fd
 ripgrep
 bat
 zip
+unzip
 github-cli
 fastfetch
 stow
