@@ -20,6 +20,7 @@ qt6-wayland
 alacritty
 ttf-jetbrains-mono-nerd
 nodejs
+npm
 btop
 foot
 nautilus
