@@ -35,4 +35,9 @@ elephant-unicode
 waybar
 nwg-look
 catppuccin-gtk-theme-mocha
+icu
+firefox
+mesa
+mesa-utils
+libdrm
 
