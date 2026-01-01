@@ -5,7 +5,6 @@ source ./functions.sh
 
 SSHD_CONFIG="/etc/ssh/sshd_config"
 
-# Check if sshd is already enabled and running
 if systemctl is-enabled sshd >/dev/null 2>&1 && \
    systemctl is-active sshd >/dev/null 2>&1; then
     msg "sshd already enabled and running"
@@ -26,7 +25,7 @@ fi
 
 run sudo sed -i \
     -e 's/^#\?PermitRootLogin.*/PermitRootLogin no/' \
-    -e 's/^#\?PasswordAuthentication.*/PasswordAuthentication no/' \
+    -e 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' \
     -e 's/^#\?PubkeyAuthentication.*/PubkeyAuthentication yes/' \
     "$SSHD_CONFIG"
 
