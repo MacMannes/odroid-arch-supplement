@@ -44,4 +44,5 @@ mesa-utils
 libdrm
 libnewt
 hyprlock
+openssh
 
