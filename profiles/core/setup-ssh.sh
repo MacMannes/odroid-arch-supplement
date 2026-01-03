@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source ${SOURCE_DIR}/colors.sh
-source ${SOURCE_DIR}/functions.sh
+source ${ROOT_DIR}/colors.sh
+source ${ROOT_DIR}/functions.sh
 
 SSHD_CONFIG="/etc/ssh/sshd_config"
 
