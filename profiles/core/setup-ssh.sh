@@ -1,12 +1,12 @@
 #!/bin/bash
 
-source ./colors.sh
-source ./functions.sh
+source ${SOURCE_DIR}/colors.sh
+source ${SOURCE_DIR}/functions.sh
 
 SSHD_CONFIG="/etc/ssh/sshd_config"
 
-if systemctl is-enabled sshd >/dev/null 2>&1 && \
-   systemctl is-active sshd >/dev/null 2>&1; then
+if systemctl is-enabled sshd >/dev/null 2>&1 &&
+    systemctl is-active sshd >/dev/null 2>&1; then
     msg "sshd already enabled and running"
     done_step
     exit 0
@@ -32,4 +32,3 @@ run sudo sed -i \
 run sudo systemctl restart sshd
 
 done_step
-

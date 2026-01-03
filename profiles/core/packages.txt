@@ -23,26 +23,7 @@ alacritty
 ttf-jetbrains-mono-nerd
 nodejs
 npm
+prettier
 btop
-foot
-nautilus
-walker
-elephant
-elephant-desktopapplications
-elephant-calc
-elephant-files
-elephant-menus
-elephant-runner
-elephant-unicode
-waybar
-nwg-look
-catppuccin-gtk-theme-mocha
-icu
-firefox
-mesa
-mesa-utils
-libdrm
-libnewt
-hyprlock
 openssh
 

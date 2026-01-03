@@ -7,7 +7,7 @@ CACHE_DIR="./cache"
 mkdir -p "$CACHE_DIR"
 CACHE_FILE="$CACHE_DIR/last_profiles.txt"
 
-AVAILABLE_PROFILES=("core" "dev" "personal")
+AVAILABLE_PROFILES=("core" "gui" dev" "personal")
 
 # Load last selection (Bash 3 compatible)
 DEFAULT_SELECTION=()
